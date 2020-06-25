@@ -1,12 +1,12 @@
 package com.gachidata.di;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
-
+//@RunWith(JUnit4.class)
 //@RunWith(SpringJUnit4ClassRunner.class)  // - junit4기반 
 
 //@ExtendWith(SpringExtension.class)  // Spring DI구현시 필요 
